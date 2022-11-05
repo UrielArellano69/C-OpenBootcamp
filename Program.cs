@@ -1,6 +1,8 @@
-﻿string nombre;
+﻿// See https://aka.ms/new-console-template for more information
+string hora; 
 
-Console.WriteLine("¿Cual es tu nombre?");
-nombre = Console.ReadLine();
+Console.WriteLine("Hola!, teclea la hora (hh:mm)");
+hora = Console.ReadLine();
 
-Console.WriteLine("\n\nMi primer 'Hola Mundo' en C# con " + nombre);
+
+Console.WriteLine("La hora es: " + hora);
